@@ -21,7 +21,7 @@ pub fn invert_tree(root: Option<Rc<RefCell<TreeNode>>>) -> Option<Rc<RefCell<Tre
         
         // We want a mutable reference to the TreeNode we're mutating
         // We need to dereference the borrowed reference, then qualify it
-        let mut x = mutRoot.deref_mut(); // Same as &mut *mutRoot;
+        let x = mutRoot.deref_mut(); // Same as &mut *mutRoot;
         std::mem::swap(&mut x.left,&mut x.right);
     }
     root
