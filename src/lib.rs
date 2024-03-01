@@ -6,9 +6,12 @@ mod binary_search;
 mod climbing_stairs;
 mod flood_fill;
 mod invert_tree;
+mod longest_palindrome;
 mod lowest_common_ancestor;
+mod majority_element;
 mod plates_between_candles;
 mod queue_with_stacks;
+mod reverse_linked_list;
 mod valid_anagram;
 /**
 * Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
